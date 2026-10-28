@@ -1,0 +1,8 @@
+{
+ "input_size": 12,
+ "num_layers": 3,
+ "hidden_dim": 256,
+ "activation": "GELU",
+ "features": "rcos",
+ "mlp_in_features": 6
+}

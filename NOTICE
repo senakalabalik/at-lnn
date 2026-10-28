@@ -1,0 +1,20 @@
+at-lnn: code and data for "Recovering Irreducible Three-Body Interactions with Lagrangian Neural Networks"
+Copyright 2026 Sena Kalabalık
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software from hessian_regularized_lnn
+(https://github.com/abdullahumuth/hessian_regularized_lnn, commit 43442d3),
+Copyright 2025 Abdullah Umut Hamzaoğulları, licensed under the Apache License, Version 2.0.
+
+Files in lnn/ derived from that repository, and how they were modified:
+  train.py           train_from_scratch() takes an explicit validation_data_path; physical masses are passed to the
+                     model (enforce_mass_matrix/masses arguments).
+  dataset_creation.py  trajectory tests accept explicit initial states (test_states); normalize_training_data has an
+                     optional time-scaling mode. The paper's runs used normalize=False.
+  file_exports.py, analytical_tools.py   comments only / one argument-list formatting change.
+  variance_preserving_initializations.py  last-layer gain configurable (not used by the paper's runs).
+  ode_solve.py       unmodified.
+  physical_systems.py  trimmed to the two systems of this work; the classes three_body (Lennard-Jones +
+                     Axilrod-Teller) and newt_three_body (Newtonian gravity) were written for this work.
+Files written for this work: lnn/fixedkinetic_LNN.py (fixed-kinetic Lagrangian network with geometric features),
+lnn/release_io.py, data_generation/, scripts/, notebooks/.

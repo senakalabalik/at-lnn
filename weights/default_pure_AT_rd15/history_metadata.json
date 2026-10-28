@@ -1,0 +1,7 @@
+{
+  "best_epoch": 143,
+  "best_loss": 0.015134349975616057,
+  "best_loss_type": "validation",
+  "total_epochs": 200,
+  "save_timestamp": "20260729-005736"
+}

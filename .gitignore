@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+runs/
+figures/
+results/sr_outputs_rerun/

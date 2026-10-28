@@ -1,0 +1,23 @@
+# Environment for the code release. Versions are those the paper's evaluation and symbolic-regression results
+# were produced with (CPU is sufficient for everything except full retraining, which used GPUs).
+#   conda env create -f environment.yml && conda activate at-lnn
+# PySR installs its Julia backend automatically on first import (needs internet once, a few minutes).
+name: at-lnn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - torch==2.5.1
+      - numpy==2.1.1
+      - scipy==1.15.2
+      - matplotlib==3.9.2
+      - pandas==2.3.2
+      - torchdiffeq==0.2.5
+      - torchode==1.0.0
+      - pysr==1.5.9
+      - juliacall==0.9.26
+      - jupyter
+      - nbconvert==7.16.6
+      - ipykernel==6.29.5

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "at-lnn: code and data for Recovering Irreducible Three-Body Interactions with Lagrangian Neural Networks"
+authors:
+  - family-names: Kalabalık
+    given-names: Sena
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "Recovering Irreducible Three-Body Interactions with Lagrangian Neural Networks"
+  authors:
+    - family-names: Kalabalık
+      given-names: Sena
+    - family-names: Çağlar
+      given-names: Şükrü
+    - family-names: Hamzaoğulları
+      given-names: Abdullah Umut
+    - family-names: Özakın
+      given-names: Arkadaş
+  identifiers:
+    - type: other
+      value: "arXiv:2610.13292"
+  year: 2026
+references:
+  - type: software
+    title: hessian_regularized_lnn
+    authors:
+      - family-names: Hamzaoğulları
+        given-names: Abdullah Umut
+    url: "https://github.com/abdullahumuth/hessian_regularized_lnn"

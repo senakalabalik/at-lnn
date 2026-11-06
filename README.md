@@ -1,6 +1,7 @@
 # at-lnn: Recovering irreducible three-body interactions with Lagrangian neural networks
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.13292-b31b1b.svg)](https://arxiv.org/abs/2610.13292)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23997752.svg)](https://doi.org/10.5281/zenodo.23997752)
 
 Code, data and trained models for
 
@@ -102,7 +103,9 @@ This calls the original training loop (`lnn/train.py: train_from_scratch`) with 
 
 ## Data archive
 
-Each tagged release of this repository, including the datasets and model weights, is archived at Zenodo: *DOI to be added*.
+Each tagged release of this repository, including the datasets and model weights, is archived at Zenodo:
+[10.5281/zenodo.23997752](https://doi.org/10.5281/zenodo.23997752) (all versions). The version used in the paper is
+v1.0.0, [10.5281/zenodo.23997753](https://doi.org/10.5281/zenodo.23997753).
 
 ## Citation
 

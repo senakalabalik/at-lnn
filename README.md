@@ -98,11 +98,11 @@ This calls the original training loop (`lnn/train.py: train_from_scratch`) with 
   and reproduce exactly. The other searches were not seeded; a rerun returns an equivalent Pareto front. The fronts used
   in the paper are in `results/sr_outputs/`.
 * **Fig. 9b** reads precomputed statistics of the N = 100 rollout ensemble (`results/fig9b_ensemble_summary.npz`,
-  including the one trajectory shown in Fig. 9a(ii)). The full ensemble trajectories are archived separately (see below).
+  including the one trajectory shown in Fig. 9a(ii)).
 
 ## Data archive
 
-The datasets, weights and the full N = 100 rollout ensemble are also archived at Zenodo: *DOI to be added*.
+Each tagged release of this repository, including the datasets and model weights, is archived at Zenodo: *DOI to be added*.
 
 ## Citation
 
